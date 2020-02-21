@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+.big{
+    margin: 0px auto;
+    background: url(../img/bg1.png) no-repeat center;
+    height: 600px;
+    width: 1000px;
+}
+.top{
+    position: relative;
+    top: 52px;
+    margin-left: 113px;
+    width: 654px;
+    height: 240px;
+    
+}
+.left{
+    position: absolute;
+    width: 324px;
+    height: 240px;
+    background-color: #fbfbfb;
+}
+.right{
+    margin-left: 324px;
+    width: 330px;
+    height: 240px;
+    background-color: #ffffff;
+}
+.Photo{
+    background: url(../img/bg2.png) no-repeat center;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 130px;
+    height: 110px;
+    border: 1px solid #ededed;
+}
+.Castlist{
+    font: 14px "微软雅黑";
+   position: absolute;
+   left: 170px;
+   top: 13px;
+}
+ul{
+    list-style: none;
+    background: url(../img/14.png) 28px 14px no-repeat;
+}
+li{
+    font: 14px/36px "Adobe 黑体 Std";
+}
+.pic{
+    width: 130px;
+    height: 155px;
+    border: 1px solid #ededed;
+}
+.r_left{
+    top: 30px;
+    margin-left: 30px;
+    position: absolute;
+    background: url(../img/bg3.png) no-repeat center;
+}
+.r_right{
+    position: relative;
+    top: 30px;
+    left: 170px;
+    background: url(../img/bg4.png) no-repeat center;
+}
+.foot{
+    position: absolute;
+    top: 310px;
+    margin-left: 113px;
+    }
+.foot .left{
+    color: #414141;
+    background-color: #000000;
+}
+.foot h3{
+    color: #ffffff;
+}
+.foot .right{
+    background-color: #2f2f2f;
+}
+.foot .right .r_left,.r_right{
+    background-color: #4d4d4d;
+}
