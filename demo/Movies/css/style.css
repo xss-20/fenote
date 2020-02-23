@@ -1,0 +1,157 @@
+.big{
+    width: 641px;
+    height: 410px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+.main{
+    width: 610px;
+    height: 397px;
+    border: 1px solid #e5e5e5;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+td{
+    font: 14px/25px "微软雅黑";
+    color: #0a4ad0;
+    line-height: 32px;
+    padding: 0px 10px 0px 10px;
+    background-color: #eaf9fe;
+    border: 1px solid #e5e5e5;
+}
+td:nth-child(5n){
+    position: relative;
+    padding-left: 87px;
+    color: #0a4ad0;
+    width: 250px;
+    /* padding-left: 80px; */
+    font: 12px/20px "微软雅黑";
+   padding-right: 0px;
+}
+td:hover{
+    border-bottom: none;
+    font-weight: bold;
+}
+.in{
+    background: url(../img/moveis_1_03.jpg) 114px 9px no-repeat;
+    height: 30px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+}
+i{
+    left: 14px;
+    
+    position: absolute;
+    font-weight: bold;
+    color: #b4810c;
+}
+.Panlong{
+    font: 21px;
+    position: absolute;
+    font-weight: bold;
+    color: #073ea3;
+    left: 140px;
+}
+span{
+    color: #0049d0;
+    position: relative;
+    left: 100px;
+    margin-left: 25px;
+    font: 12px/16px "微软雅黑";
+}
+.last{
+    position: relative;
+    top: 10px;
+}
+.l_left{
+    background: url(../img/moveis_2.jpg)  14px 0px no-repeat;
+    position: absolute;
+    height: 114px;
+    width: 315px;
+    
+}
+.flag{
+    position: absolute;
+    left: -12px;
+    top: 85px;
+}
+section{
+    position: absolute;
+    top: -10px;
+    left: 130px;
+    color: #0049d0;
+    font: 12px/18px "微软雅黑 ";
+    
+}
+img{
+    position: absolute;
+    left: 122px;
+    width: 20px;
+}
+li{
+    list-style-type: none;
+}
+.l_right{
+    background: url(../img/moveis_3.jpg) 14px 0px no-repeat;
+    position: relative;
+    left: 315px;
+    height:114px ;
+    width: 294px;
+    
+}
+.column{
+    border-top: 1px solid #e5e5e5;
+    float: left;
+    width: 610px;
+    height: 210px;
+}
+.item{
+    margin-top: 10px;
+    background: url(../img/moveis_4.jpg) no-repeat;
+    float: left;
+    margin-left: 15px;
+    width: 135px;
+    height: 144px;
+}
+.frist{
+    background: url(../img/moveis_4.jpg) no-repeat;
+}
+.second{
+    background: url(../img/moveis_5.jpg) no-repeat;
+}
+.third{
+    background: url(../img/moveis_6.jpg) no-repeat;
+}
+.fourth{
+    background: url(../img/moveis_7.jpg) no-repeat;
+}
+.item span{
+    position: relative;
+    top: 85px;
+    left: 0px; 
+     margin-left: 0px; 
+    
+}
+.i_up{
+    font: 12px/14px "微软雅黑";
+    left: 0px;
+}
+.i_low{
+    font: 10px/14px "微软雅黑";
+    color:#919191;
+    
+}
+footer{
+    font: 12px/16px "微软雅黑";
+    margin-left: -7px;
+    color: #0049d0;
+}
+footer span{
+    left: 0px;
+    color:#919191;
+    
+}
+
+

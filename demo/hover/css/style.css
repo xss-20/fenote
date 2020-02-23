@@ -1,0 +1,39 @@
+
+.frist td{
+   
+   
+    width: 113px;
+    height: 40px;
+    border: 1px solid #e7788d;
+    text-align: center;
+    background-color: #fdf1f4;
+}
+.frist td:hover{
+    background-color: #ffffff;
+    
+    border: 2px solid #e73e5f;
+    border-bottom: none;
+}
+.second{
+    margin-top: 200px;
+}
+
+.second td{
+   
+   
+    width: 115px;
+    height: 40px;
+    
+    text-align: center;
+    background-color: #fdf1f4;
+}
+.second td:hover{
+    background-color: #ffffff;
+    
+    border: 2px solid #e7788d;
+    border-bottom: none ;
+}
+.second :not(:hover){
+    border-bottom: 1px solid  #e7788d;
+    
+}
