@@ -1,0 +1,292 @@
+h3,h2,figure,ul,li{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.box{
+    position: relative;
+    width: 970px;
+    height: 680px;
+    border: 1px solid #dddddd;
+    margin: 0px auto;
+    display: flex;
+    
+}
+.tv{
+    position: absolute;
+    width: 200px;
+    margin-left: 15px;
+}
+h3{
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.tvpic{
+    display: block;
+    padding: 1px;
+    border: 1px solid #dddddd;
+}
+.tvtext span{
+    color: #7b7b7b;
+}
+.tvtext{
+    color: #3c3c3c;
+}
+figcaption{
+    
+    text-align: center;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+}
+.details span{
+    color: #7b7b7b;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.details a{
+    font-size: 12px;
+    color:  #3c3c3c;
+}
+h2{
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+}
+.tvsate td{
+    
+    padding: 0px 6px 0px 6px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #dddddd;
+    border-left: none   ;
+    border-bottom: none;
+}
+.tvsate table{
+    margin-top: 10px;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+.tvsate a{
+    color: #3c3c3c;
+}
+.tvsate span{
+    color: #7b7b7b;
+}
+.Release{
+    margin-top: 10px;
+}
+.Release a{
+    height: 22px;
+    display: block;
+    line-height: 22px;
+    color: #3f3f3f;
+    font-size: 12px;
+}
+.tvtype {
+    position: relative;
+    left: 245px;
+    top: 10px;
+}
+
+.tvtype td{
+    height: 30px;
+    border: 1px solid #dddddd;
+    padding: 0px 6px 0px 6px;
+    
+    font-size: 15px;
+    
+}
+.tvtype a {
+    color: #404040;
+}
+hr{
+    width: 468px;
+    position: absolute;
+    border: 1px solid #dddddd;
+    top: 23px;
+}
+.tvtype td:hover{
+    font-weight: bold;
+    border-bottom: none;
+    
+}
+.more{
+    position: absolute;
+    left: 440px;
+    top: 10px;
+    font-size: 12px;
+}
+.tv_more{
+    position: relative;
+    top: 6px;
+}
+.tv_item{
+    width: 120px;
+    height: 211px;
+}
+.tv_item .tvpic{
+    display: block;
+    padding: 1px;
+    width: 100px;
+    border: 1px solid #dddddd;
+}
+.tv_item figcaption{
+    text-align: left;
+    line-height: 25px;
+}
+.tv_item .tvtext img{
+    position: relative;
+    left: 95px;
+    top: -17px;
+}
+.tv_item span{
+    position: relative;
+    font-size: 12px;
+    color: #b4b4b4;
+    top: -40px;
+}
+.tv_more{
+    width: 481px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+.tv_list{
+    position: relative;
+    left: 250px;
+    width: 230px;
+}
+.tv_list h2{
+    height: 45px;
+    line-height: 45px;
+    
+}
+.tv_ul{
+    
+    list-style-type: none;
+    
+}
+
+.tv_ul a{
+   margin-left: 15px; 
+    
+   
+    
+}
+.tv_ul a{
+    
+    width: 35px;
+}
+.tv_ul span{
+    
+    font-weight: bold;
+}
+.tv_ul li{
+    
+    
+    
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+}
+.tv_ul a:nth-child(7),a:nth-child(13){
+    margin-left: 0px;
+}
+.tv_ul:nth-child(3){
+    
+    margin-top: 50px;
+}
+.tv_ul:nth-child(3) a:nth-child(6){
+    margin-left: 13px;
+}
+.tv_ul:nth-child(4){
+    
+    margin-top: 22px;
+}
+.last{
+    
+    color: #3d3d3d;
+    font-size: 12px;
+}
+.tv_top{
+    margin-top: 10px;
+}
+.tv_top span{
+    
+    position: relative;
+    left: 130px;
+    top: -33px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px; 
+    padding: 3px;
+    border: 1px solid #dddddd;
+}
+.tv_top .Month:hover{
+    background-color: #06a0dc;
+    
+}
+.tv_top span a:hover{
+    color: #fff;
+}
+.tv_top span a{
+    color: #3d3d3d;
+}
+.tv_ol{
+    position: absolute;
+    left: -30px;
+    top: 270px;
+}
+.tv_ol li{
+    height: 28px;
+    /* list-style-type: decimal-leading-zero; */
+    list-style-type: none;
+    
+}
+.tv_ol li a{
+    font-size: 12px;
+    color: #3a3a3a;
+}
+
+.tv_ol li .item_top{
+    position: relative;
+    top: -2px;
+    left: -7px;
+}
+.tv_ol  .dyeing{
+    background-color: #3fbaf3;
+}
+.tv_ol .Set{
+    color: #b4b4b2;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    border: none;
+}
+.tv_ol .score{
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 10px;
+    border: none;
+    color: #fd3d0c;
+}
+.tv_ol .score img{
+    height: 10px;
+    width: 8px;
+    margin-top: 4px;margin-left: 3px;
+    
+}
+.pic_last{
+    position: relative;
+    top: 280px;
+}
