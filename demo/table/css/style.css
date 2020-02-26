@@ -1,0 +1,30 @@
+table{
+    width: 640px;
+    height: 155px;
+    border-collapse: collapse;  
+}
+td{
+    font-size: 12px;
+    color: #000000;
+    border: 1px solid #99b0da;
+    
+    text-align: center;
+}
+tr:first-child{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #dbe3fa;
+}
+.hid_tr td{
+    height: 4px;
+    border: none;
+}
+.date{
+    color: #cc0000;
+}
+.hot{
+   color:#e54600 ; 
+}
+.cold{
+    color: #000065;
+}
