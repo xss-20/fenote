@@ -1,0 +1,455 @@
+body{
+    margin: 0px;
+    font-family: Arial,'微软雅黑';
+    font-size: 14px;
+    
+}
+h1
+{
+    margin: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+input{
+    outline: none;}
+em,i{
+    font-style: normal;
+}
+.center{
+    
+    width: 997px;
+    min-height: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+.topline{
+    
+    
+    height: 42px;
+    background: url(../images/login_55.png)   repeat-x 0px -134px;
+   
+    
+}
+.topline .logo{
+    width: 240px;
+    height: 130px;
+    left: -20px;
+    top:0px;
+    position: absolute;
+}
+.topline .menu{
+    
+    float: right;
+    height: 40px;
+}
+.topline .menuitem{
+    height: 100%;
+    padding: 0px 16px;
+    float: left;
+    border-left: 1px solid #393939;
+    border-right: 1px solid #222222;
+    font: 14px/40px "微软雅黑";
+    color: #ffffff;
+}
+.menuitem:first-child{
+    box-shadow: -1px 0 0 0 #222222 ;
+}
+.menuitem:last-child{
+    box-shadow: 1px 0 0 0 #393939 ;
+}
+.menuitem.active{
+    background-color: #e15671;
+}
+.menuitem:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: #e15671;
+}
+.topline .btnbox{
+    width: 102px;
+    height: 23px;
+    position: absolute;
+    top: 42px;
+    right: -1px;
+}
+.topline .btnbox .btn{
+    
+    width: 50px;
+    font: 12px/23px "微软雅黑";    
+    margin-right: 1px;
+    float: left;
+    
+    text-align: center;
+    color: #ffffff;
+    background-color: #e15671;
+}
+.big{
+    width: 1000px;
+    height: 540px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.login_box{
+    bottom: 0px;
+    width: 468px;
+    height: 464px;
+    position: absolute;
+    
+}
+.login_box .box_up{
+    
+    position: relative;
+    height: 245px;
+    background: #f7f5f3;
+    margin: 0px 25px 0px 19px;
+    box-shadow: 4px 5px 10px 0 rgba(0, 0, 0, 0.2) ;
+    padding: 33px 71px 0px 73px;
+}
+.login_box .box_up img{
+    margin-top: -33px;
+    margin-left: -73px;
+}
+.login_box .box_up .title{
+    
+    height: 25px;
+    line-height: 25px;
+    text-align-last: justify;
+}
+.login_box .title em{
+    
+    font-size: 20px;
+    color: #515151;
+    display: inline-block;
+}
+.login_box .title .sublitle{
+   
+    color: #848280;
+    display: inline-block;
+}
+.login_box .title a{
+    color: #e15671;
+    
+}
+
+.box_up .closebtn{
+    width: 30px;
+    height: 30px;
+    background: url(../images/login_07.png) no-repeat;
+    position: absolute;
+    top: 19px;
+    right: 16px;
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+.box_up .closebtn:hover{
+    background: url(../images/login_03.png) no-repeat;   
+    transform: rotate(180deg); 
+}
+.box_up .inputbox{
+    height: 30px;
+    border: 2px solid #e15671;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: inset 5px 5px 5px 0 #d6cec7;
+    padding: 3px 14px;
+    
+}
+.box_up .inputbox input{
+    width: 100px;
+    height: 30px;
+    border: 0;
+    padding: 0;
+    
+    background: transparent;
+}
+.function{
+    margin-top: 20px;
+}
+.box_up .Sign{
+    position: relative;
+    
+    float: left;
+    height: 37px;
+    font: 17px/37px '微软雅黑';
+    color: #fff;
+    padding: 0 25px;
+    background: url(../images/login_55.png) repeat-x 0px -92px;
+    margin: 0px 6px;
+}
+.box_up .Sign_left
+{
+    background: url(../images/login_11.png) no-repeat;
+    height: 37px;
+    width: 6px;
+    position: absolute;
+    left: -6px;
+    top: 0px;
+    }
+.box_up .Sign_right
+{
+    background: url(../images/login_15.png) no-repeat;
+    height: 37px;
+    width: 6px;
+    position: absolute;
+    right: -6px;
+    top: 0px;
+}
+.box_up .state{
+    float: right;
+    padding-top: 3px;
+    line-height: 34px;
+    display: table-cell;
+    vertical-align: middle;
+    color:rgba(0, 0, 0, 0.6);
+} 
+.box_up .state .checkbox{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #afafaf;
+    display: inline-block;
+}
+.box_up .state input{
+    display: none;
+}
+.box_up .state label{
+    display: inline-block;
+    vertical-align: middle;
+}
+.state input:checked ~ .checkbox{
+    
+    background: url(../images/login_55.png) no-repeat  -25px -187px;
+
+}
+.login_box .box_bot{
+    text-align: center;
+    color: #848280;
+    position: relative;
+    height: 291px;
+    background: url(../images/login_21.png) no-repeat;
+    padding: 28px 96px 0px 92px;
+}
+.login_box .box_bot .login_sina{
+    display: inline-block;
+    vertical-align: middle;
+    height: 46px;
+    width: 46px;
+    border-radius: 50px;
+    background: #e37770 url(../images/login_55.png) no-repeat -2px -2px ;
+    margin: 0px 6px;
+}
+.login_box .box_bot .login_qq{
+    display: inline-block;
+    vertical-align: middle;
+    height: 46px;
+    width: 46px;
+    border-radius: 50px;
+    background: #81c9e1 url(../images/login_55.png) no-repeat -52px -2px ;
+}
+footer{
+    
+    background: url(../images/login_44.png);
+    height: 124px;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+} 
+.footer_mian{
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 890px;
+    position: relative;
+    margin-top: 20px;
+}
+.foot_miao{
+    position: absolute;
+    width: 200px;
+    height: 73px;
+    border: 1px solid #0e0e0e;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0.5) url(../images/login_35.png) 24px no-repeat;
+} 
+.foot_ul{
+    color: #989898;
+    padding: 17px 0px;
+    height: 28px;
+    float: right;
+}
+.foot_ul span{
+    margin-left: 3px;
+}
+.foot_li{
+    
+    /* display: inline-block; */
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px 3px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px ;
+    float: left;
+}
+.foot_li a{
+    color: #989898;
+}
+.next{
+    position: absolute;
+    left: 517px;
+    padding-bottom: 58px;
+}
+.next .box_up{
+    height: 303px;
+}
+.next .inputbox input:last-child{
+    float: left;
+    
+    
+}
+.next .inputbox:last-child{
+    background: url(../images/login_14.png)no-repeat 130px;
+}
+.next .inputbox:last-child a{
+    color:#e15671 ;
+    margin-left: 110px;
+}
+.next .pass{
+    margin-top: 0px;
+}
+.next .box_up>span{
+    width: 14px;
+    height: 14px;
+    background: url(../images/login_10.png)   no-repeat ;
+    padding-left: 20px;
+    color: #e15671;
+}
+.next  .Sign{
+    position: relative;
+    top: 13px;
+    left: 52px;
+    float: left;
+    height: 37px;
+    font: 17px/37px '微软雅黑';
+    color: #fff;
+    padding: 0 25px;
+    width: 120px;
+    background: url(../images/login_55.png) repeat-x 0px -92px;
+    margin: 0px 6px;
+}
+.next  .Sign_left
+{
+    background: url(../images/login_11.png) no-repeat;
+    height: 37px;
+    width: 6px;
+    position: absolute;
+    left: -6px;
+    top: 0px;
+    }
+.next  .Sign_right
+{
+    background: url(../images/login_15.png) no-repeat;
+    height: 37px;
+    width: 6px;
+    position: absolute;
+    right: -6px;
+    top: 0px;
+}
+.next  .closebtn{
+    
+    background: url(../images/login_03.png) no-repeat;
+    
+}
+.next  .closebtn:hover{
+    background: url(../images/login_07.png) no-repeat;   
+    
+}
+.next .box_bot{
+    width: 290px;
+    padding: 10px 96px 0px 92px;
+}
+.next  .state{
+    
+    float: right;
+    
+    line-height: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    color:rgba(0, 0, 0, 0.6);
+} 
+.next .state .checkbox{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #afafaf;
+    display: inline-block;
+}
+.next  .state input{
+    display: none;
+}
+
+.the_bot{
+    height: 265px;
+    position: absolute;
+    margin-top: 600px;
+    
+}
+.the_bot .Sign{
+    position: relative;
+    
+    width: 35px;
+    height: 37px;
+    font: 17px/37px '微软雅黑';
+    color: #fff;
+    padding: 0 25px;
+    background: url(../images/login_55.png) repeat-x 0px -50px;
+    margin: 0px 6px;
+}
+.the_bot .Sign_left
+{
+    background: url(../images/login_25.png) no-repeat;
+    height: 37px;
+    width: 6px;
+    position: absolute;
+    left: -6px;
+    top: 0px;
+    }
+.the_bot .Sign_right
+{
+    background: url(../images/login_29.png) no-repeat;
+    height: 37px;
+    width: 6px;
+    position: absolute;
+    right: -6px;
+    top: 0px;
+}
+.the_bot .box_bot{
+    margin-top: 45px;
+}
+.the_bot .login_sina{
+    display: inline-block;
+    vertical-align: middle;
+    height: 46px;
+    width: 46px;
+    border-radius: 50px;
+    background: #d8261c url(../images/login_55.png) no-repeat -2px -2px ;
+    margin: 0px 6px;
+}
+.the_bot .login_qq{
+    display: inline-block;
+    vertical-align: middle;
+    height: 46px;
+    width: 46px;
+    border-radius: 50px;
+    background: #36afda url(../images/login_55.png) no-repeat -52px -2px ;
+}
