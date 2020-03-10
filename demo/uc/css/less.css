@@ -1,0 +1,229 @@
+body {
+  margin: 0px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  min-width: 1200px;
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+h2 {
+  margin: 0;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.topline {
+  width: 100%;
+  height: 100%;
+}
+.topline .center {
+  position: relative;
+  height: 69px;
+  width: 986px;
+  margin: 0px auto;
+  background: #ffffff url(../images/logo.png) 10px no-repeat;
+}
+.topline .center_menu {
+  margin-left: 340px;
+  height: 69px;
+  font: 20px "微软雅黑";
+  line-height: 66px;
+}
+.topline .center_menu .menuitem {
+  position: relative;
+  text-align: center;
+  width: 90px;
+  float: left;
+}
+.topline .center_menu .menuitem a {
+  color: #000;
+}
+.topline .center_menu .menuitem a:hover {
+  color: #ff6600;
+}
+.topline .center_menu .active {
+  border-bottom: 3px solid #ff6600;
+}
+.topline .center .sub-link-wrapper {
+  position: absolute;
+  left: -28px;
+  z-index: 2;
+}
+.topline .center .sub-link-wrapper .sub-link-wrapper-arrow {
+  display: block;
+  position: absolute;
+  left: 56px;
+  top: -32px;
+  width: 0;
+  height: 0;
+  border-width: 16px;
+  border-style: solid;
+  border-color: transparent transparent #fe780a;
+}
+.topline .center .sub-link-wrapper .hid_menu {
+  position: relative;
+  width: 145px;
+  white-space: nowrap;
+  line-height: 34px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 4px 5px 10px 0 #e8e7e4;
+}
+.topline .center .sub-link-wrapper .hid_menu .hid_menu_li {
+  background-color: #fb7942;
+}
+.topline .center .sub-link-wrapper .hid_menu .hid_menu_li a {
+  font: 14px "微软雅黑";
+  display: inline-block;
+  color: #ffffff;
+  box-sizing: border-box;
+  width: 100%;
+}
+.topline .center .sub-link-wrapper .hid_menu .hid_menu_li:hover {
+  background-color: #ff6600;
+}
+.topline .poster {
+  margin: 0 auto;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+.topline .poster img {
+  width: 100%;
+}
+.topline .poster ul {
+  width: 5682px;
+  margin: 0 ;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+}
+.topline .poster li {
+  float: left;
+}
+.topline .poster input {
+  position: absolute;
+  margin-left: 880px;
+  top: 370px;
+  z-index: 2;
+}
+.topline .poster input:nth-child(1) {
+  left: 40px;
+}
+.topline .poster input:nth-child(1):hover ~ ul {
+  left: 0;
+}
+.topline .poster input:nth-child(2) {
+  left: 60px;
+}
+.topline .poster input:nth-child(2):hover ~ ul {
+  left: -1894px;
+}
+.topline .poster input:nth-child(3) {
+  left: 80px;
+}
+.topline .poster input:nth-child(3):hover ~ ul {
+  left: -3788px;
+}
+.topline .main {
+  position: relative;
+  width: 986px;
+  margin: 0 auto;
+}
+.topline .main .code {
+  left: 10px;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 120px;
+}
+.topline .main .code .code_item {
+  vertical-align: middle;
+  line-height: 40px;
+  margin: 0 auto;
+  font: 12px/40px "微软雅黑";
+  width: 90px;
+  height: 120px;
+  margin-right: 50px;
+  text-align: center;
+  float: left;
+}
+.topline .main .code .code_item img {
+  display: table-cell;
+  margin: 0 auto;
+  text-align: center;
+}
+.topline .main .code .Vertical {
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 120px;
+  left: 540px;
+  border: 1px solid #eeeeee;
+}
+.topline .main .code .code_item:first-child span {
+  color: #999999;
+}
+.topline .main .code .code_item:last-child span {
+  color: #999999;
+}
+.topline .main .code .code_item:nth-child(4) span {
+  display: block;
+  margin-top: 18px;
+}
+.topline .main .activity {
+  float: left;
+  display: flex;
+}
+.topline .main .activity section {
+  margin-right: 58px;
+  position: relative;
+  top: 170px;
+  width: 291px;
+  height: 390px;
+}
+.topline .main .activity section h2 {
+  font: 20px/60px "微软雅黑";
+}
+.topline .main .activity section h2 a {
+  color: #000;
+}
+.topline .main .activity section .more {
+  position: absolute;
+  left: 250px;
+  top: 22px;
+  color: #000;
+}
+.topline .main .activity section span {
+  position: absolute;
+  display: block;
+  line-height: 34px;
+  text-align: center;
+  width: 290px;
+  height: 34px;
+  background-color: #c6c7c7;
+  opacity: 0.8;
+  top: 180px;
+}
+.topline .main .activity section span a {
+  color: #444444;
+}
+.topline .main .activity section .extend {
+  margin-top: 10px;
+}
+.topline .main .activity section .extend a {
+  display: inline-block;
+  height: 24px;
+  color: #444444;
+}
+.topline .main footer {
+  background-color: #333333;
+  overflow: hidden;
+}

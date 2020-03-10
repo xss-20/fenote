@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/less.css">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="topline">
+        <div class="center">
+          <div class="center_menu">
+            <div class="menuitem active"><a href="">首页</a> </div>
+            <div id="download"  class="menuitem "><a  href="">下载</a>
+              <!-- 这个样式颜色比较显眼我是照着uc的做的 -->
+              <div class="sub-link-wrapper">
+                <div class="sub-link-wrapper-arrow"></div>
+                <ul class="hid_menu">
+                
+                  <li class="hid_menu_li"><a href="">手机UC</a> </li>
+                  <li class="hid_menu_li"><a href="">UC头条</a> </li>
+                  <li class="hid_menu_li"><a href="">电脑浏览器</a> </li>
+                  <li class="hid_menu_li"><a href="">TV浏览器</a> </li>
+                  <li class="hid_menu_li"><a href="">Android实验室版</a> </li>
+    
+                </ul>
+              </div>
+            </div>
+            <div class="menuitem"><a href="">公司</a> </div>
+            <div class="menuitem"><a href="">合作</a></div>
+            <div class="menuitem"> <a href="">校园</a></div>
+            <div class="menuitem"><a href="">社区</a> </div>
+            <div class="menuitem"><a href="">帮助</a></div>
+              
+            
+            
+            
+          </div>
+        </div>
+        <div class="poster">
+          <input type="radio" name="img" >
+          <input type="radio" name="img">
+          <input type="radio" name="img">
+          <ul>
+            <li><img src="images/uc_1.png"></li>
+            <li><img src="images/uc_1.png"></li>
+            <li><img src="images/uc_1.png"></li>
+            
+        </ul>
+        </div>
+        <div class="main">
+          <div class="code">
+            <div class="code_item"><a href=""><img src="images/uc_2.png" alt=""></a><span>手机扫一扫下载</span></div>
+            <div class="code_item"><a href=""><img src="images/uc_3.png" alt=""></a><span>Android版下载</span></div>
+            <div class="code_item"><a href=""><img src="images/uc_7.png" alt=""></a><span>iPhone版下载</span></div>
+            <div class="code_item"><a href=""><img src="images/uc_4.png" alt=""></a><span>电脑版下载</span></div>
+            <span class="Vertical"></span>
+            <div class="code_item"><a href=""><img src="images/uc_8.png" alt=""></a><span>Android版下载</span></div>
+            <div class="code_item"><a href=""><img src="images/uc_6.png" alt=""></a><span>iPhone版下载</span></div>
+            <div class="code_item"><a href=""><img src="images/uc_5.png" alt=""></a><span>手机扫一扫下载</span></div>
+          </div>
+          <div class="activity">
+          <section>
+            <h2><a href="">活动专区</a></h2><a class="more" href="">更多></a>
+            <a href=""><img src="../uc/images/uc_14.png" alt=""></a>
+            <span><a href="">上UC，领CF手游永久武器</a> </span>
+            <div class="extend">
+              <a href="">这个感恩节，我们这样过</a><br>
+              <a href="">鸡腿旋风再度来袭——我和UC有一腿</a><br>
+              <a href="">“赢在执行力”UC校园夏令营回顾</a><br>
+              <a href="">如何在下雨天用一把伞和TA成功搭讪？</a><br>
+              <a href="">玩得这么6的校运会，你见过吗？</a><br>
+            </div>
+          </section>
+          <section>
+            <h2><a href="">新闻动态</a></h2><a class="more" href="">更多></a>
+            <a href=""><img src="../uc/images/uc_16.png" alt=""></a>
+            <span><a href="">UC发布“光谱计划” 推出国内首个免费内容...</a> </span>
+            <div class="extend">
+              <a href="">浙报、UC合作探索阿里文娱统一生态、</a><br>
+              <a href="">UC发力公益资讯 助移动打拐平台“团圆</a><br>
+              <a href="">UC汽车大数据：有车族不再追SUV?</a><br>
+              <a href="">封面传媒与UC签署版权、数据、媒体服</a><br>
+              <a href="">UC发布商品推广功能 与南都启动战略合</a><br>
+            </div>
+          </section>
+          <section>
+            <h2><a href="">社区热帖</a></h2><a class="more" href="">更多></a>
+            <a href=""><img src="../uc/images/uc_17.png" alt=""></a>
+            <span><a href="">【内测】iPhone荣誉测试团招募·无需越狱</a> </span>
+            <div class="extend">
+              <a href="">【内测】UC产品荣誉测试团招募·等你体验</a><br>
+              <a href="">【热门】任务中心全新改革·积分勋章等你拿</a><br>
+              <a href="">【问啊】以问答传递见解·你就是我们那道光</a><br>
+              <a href="">【反馈】网页问题大收集·研发大神专帖等你</a><br>
+              <a href="">【每日】小贱日报十则·全网新鲜搞笑都在这</a><br>
+            </div>
+          </section>
+        </div>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+    <script type="text/javascript">
+      $(function(){
+        $(".sub-link-wrapper").hide();
+        $("#download").hover(function(){
+          // alert("55");
+          $(".sub-link-wrapper").show()
+          }
+         ,function(){
+            $(".sub-link-wrapper").hide();
+        }
+        ); 
+      });
+      
+    </script>
+</body>
+</html>
