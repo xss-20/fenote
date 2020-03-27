@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 3px solid #ff664d;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+        }
+        .box img{
+            width: 300px;
+        }
+        ul{
+            float: left;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            position: relative;
+            left: 0;
+            transition: 0.5s;
+        }
+        li{
+            float: left;
+        }
+        .swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(-1 * var(--swiper-navigation-size)/ 2);
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+}
+    </style>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+    <div class="box swiper-container">
+   
+        <ul class="swiper-wrapper" >
+            <li class="swiper-slide"><img src="images/01.png"></li>
+            <li class="swiper-slide"><img src="images/02.png"></li>
+            <li class="swiper-slide"><img src="images/03.png"></li>
+            <li class="swiper-slide"><img src="images/06.png"></li>
+        </ul>
+    </div>
+    <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></div>
+    <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="false"></div>
+</body>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //     dynamicBullets:true,
+    //   },
+    loop:true,
+    autoplay:{
+        delay:2000,
+        },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+</html>
